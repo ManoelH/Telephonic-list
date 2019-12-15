@@ -19,7 +19,11 @@ class ContactController {
         ContactService.deleteContact(contactEntity)
     }
 
-    fun getContactList() : List<ContactEntity>{
+    fun getContactList() :List<ContactEntity>{
         return ContactService.getContactList()
+    }
+
+    fun getCountTable() :String{
+        return ContactService.getCountTable()
     }
 }

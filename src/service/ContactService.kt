@@ -16,7 +16,7 @@ class ContactService {
 
         fun validateDelete(contactEntity: ContactEntity) {
             if (contactEntity.name == "" || contactEntity.telephone == "")
-                throw Exception("Error select one number!")
+                throw Exception("Error select one contact!")
         }
 
         fun saveContact(contactEntity: ContactEntity) {
@@ -29,6 +29,16 @@ class ContactService {
 
         fun getContactList(): List<ContactEntity> {
             return ContactRepository.getContactList()
+        }
+
+        fun getCountTable() :String{
+            var contactList = getContactList()
+
+            return when (contactList.size) {
+                0 -> "The list is empty"
+                1 -> "1 contact"
+                else -> "${contactList.size} contacts"
+            }
         }
     }
 }

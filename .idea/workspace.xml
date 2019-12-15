@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95a54f23-666e-4f2d-bb49-4ec3811ef471" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ContactController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/ContactEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ContactRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ContactService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Telephonic_list/ui/ContactForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telephonic_list/ui/ContactForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Telephonic_list/ui/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Telephonic_list/ui/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ContactController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ContactController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ContactRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ContactRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ContactService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ContactService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ContactForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ContactForm.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/ContactForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ContactForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/MainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainFrame.form" afterDir="false" />
@@ -42,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -91,29 +89,45 @@
       <option name="presentableId" value="Default" />
       <updated>1576278842757</updated>
     </task>
+    <task id="LOCAL-00001" summary="project structuration to crud">
+      <created>1576433719624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576433719624</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project structuration to crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="project structuration to crud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1576279576985">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1576279576985" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1576432980899">
+    <state x="330" y="0" key="CommitChangelistDialog2" timestamp="1576433716716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576432980899" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1576432980899">
+    <state x="330" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576433716716" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1576440673766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576432980899" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1576432980899">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576440673766" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1576440673766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576432980899" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1576432980899">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576440673766" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1576440673766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576432980899" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576440673766" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1576440673766">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576440673766" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576283399107">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -130,9 +144,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576283399107" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1576433829575">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576433829575" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1576418851344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576418851344" />
+    <state x="413" y="119" key="extract.method.dialog" timestamp="1576439991060">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1576439991060" />
   </component>
 </project>
